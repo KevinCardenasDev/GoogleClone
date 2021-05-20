@@ -9,7 +9,6 @@ body {
 a{
     text-decoration: none;
     cursor: pointer;
-
 }
 
 header{
@@ -71,7 +70,6 @@ main .main-input{
     margin-bottom: 35px;
 }
 
-
 main .main-input-container{
     width: 525px;
     border-radius: 100px;
@@ -82,10 +80,33 @@ main .main-input-container{
     margin: 0 auto;
 }
 
-
 main .main-input input{
     width: 450px;
     height: 40px;
     border: none;
     outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-item{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
 }
